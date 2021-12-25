@@ -1,0 +1,53 @@
+name: weatherapp
+description: A new Flutter application.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.1
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.3
+  firebase_core: ^1.10.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  flutter_conditional_rendering: ^2.0.0
+  fluttertoast: ^8.0.8
+  hexcolor: ^2.0.5
+  http: ^0.13.4
+  intl: ^0.17.0
+  material_design_icons_flutter: ^5.0.6595
+  shared_preferences: ^2.0.9
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+  fonts:
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/icons/MyFlutterApp.ttf
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald-Regular.ttf
+    # - family: IconWeather
+    #   fonts:
+    #     - asset: assets/fonts/icon_weather.ttf
+#     fonts:
+#       - asset: fonts/TrajanPro.ttf
+#       - asset: fonts/TrajanPro_Bold.ttf
+#         weight: 700
+#
+# For details regarding fonts from package dependencies,
+# see https://flutter.dev/custom-fonts/#from-packages
